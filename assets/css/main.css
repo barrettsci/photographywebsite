@@ -1225,6 +1225,13 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+			@media screen and (max-width: 768px) {
+    				#viewer .slide .image {
+        				background-size: contain;
+        				background-position: center;
+    				}
+			}
+
 			#viewer .slide:before {
 				-moz-animation: spinner 1s linear infinite;
 				-webkit-animation: spinner 1s linear infinite;
